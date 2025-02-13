@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<configSections>
+  <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+   <section name="ShippingManagement.AppSettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+  </sectionGroup>
+ </configSections>
+ <connectionStrings>
+		<add name="MySQlConnectionString" connectionString="Data Source=YourServer;Initial Catalog=YourDatabase;Integrated Security=True" />
+	</connectionStrings>
+	<appSettings>
+		<add key="Username" value="hbsposttest" />
+		<add key="Password" value="H0lFQ3^4rTGw4#" />
+		<add key="CustomerCode" value="YHGK" />
+		<add key="CustomerNumber" value="9917495" />
+    <add key="BaseUrl" value="https://hbstest.nl/dataexchange/" />
+    <add key="PostNLLabelUrl" value="https://api-sandbox.postnl.nl/shipment/v2_2/label" />
+    <add key="PostNLBarCodeUrl" value="https://api-sandbox.postnl.nl/shipment/v1_1/" />
+    <add key="PostNLApiKey" value="gHol7S5zN9tQ2AuygU7hZogHIuBWxbQv" />
+    <add key="SpringLabelUrl" value="https://mtapi.net/?testMode=1" />
+		<add key="Configuration" value="Debug" />
+		<add key="ForceStreet" value="True" />
+	</appSettings>
+ <applicationSettings>
+  <ShippingManagement.AppSettings>
+   <setting name="Setting" serializeAs="String">
+    <value />
+   </setting>
+  </ShippingManagement.AppSettings>
+ </applicationSettings>
+</configuration>
