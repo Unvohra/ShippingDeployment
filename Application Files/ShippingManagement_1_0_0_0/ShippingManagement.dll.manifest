@@ -807,7 +807,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ozQbXw5Iei4UWi0QhXlHmQMRV6O6dk+OPxVK/D3sxV0=</dsig:DigestValue>
+      <dsig:DigestValue>cX8LaJaRNicCCqziu88EVmg/UgxCzchqGHqiHUhjmqI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ShippingManagement.dll.config" size="1597">
@@ -825,7 +825,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>D814AjmgwWiUbECUuMLEs7jQ3sjRcqPQWFuEhmFyFhg=</dsig:DigestValue>
+      <dsig:DigestValue>HtVxrEvmkCqEHkde9DaqEuVPS9wo4XD6YWrHzYpDuLU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ShippingManagement.runtimeconfig.json" size="441">

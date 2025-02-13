@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://github.com/Unvohra/ShippingManagment/tree/Deploy/Published/ShippingManagement.application" />
+    <deploymentProvider codebase="https://unvohra.github.io/ShippingDeployment/ShippingManagement.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
@@ -21,7 +21,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OwhaCOq1LQ8/JcJd7obY/KfzhuHB0eR5fVAtSwaWNWs=</dsig:DigestValue>
+        <dsig:DigestValue>G4BHkslklCRV6agID//m76mXDs88P3bWLG9+yfyIgak=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
